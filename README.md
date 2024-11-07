@@ -42,9 +42,9 @@ For common questions, such as adding an institution logo or customizing the colo
 The UB version includes several color themes suitable for various types of presentations:
 
 * `gemini` (default)
-* `UB` (customized for University of Bridgeport branding)
+* `UBridgeport` (customized for University of Bridgeport branding)
 
-You're encouraged to create your own color theme or use the `ox` theme for presentations associated with the University.
+You're encouraged to create your own color theme or use the `UBridgeport` theme for presentations associated with the University.
 
 ## Design Goals
 
