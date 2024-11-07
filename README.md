@@ -1,6 +1,6 @@
-# Gemini Unofficial Oxford Version [![Build Status](https://github.com/anishathalye/gemini/workflows/CI/badge.svg)](https://github.com/anishathalye/gemini/actions?query=workflow%3ACI)
+# Gemini Unofficial Bridgeport Version [![Build Status](https://github.com/anishathalye/gemini/workflows/CI/badge.svg)](https://github.com/anishathalye/gemini/actions?query=workflow%3ACI)
 
-This is an unofficial adaptation of the modern LaTeX [beamerposter] theme, Gemini, tailored for the University of Oxford.
+This is an unofficial adaptation of the modern LaTeX [beamerposter] theme, Gemini, tailored for the University of Bridgeport.
 
 <p align="center">
 <a href="https://raw.githubusercontent.com/anishathalye/assets/master/gemini/poster-gemini.pdf">
@@ -10,11 +10,11 @@ This is an unofficial adaptation of the modern LaTeX [beamerposter] theme, Gemin
 
 For a general-purpose beamer presentation theme, see [Auriga].
 
-## Oxford Customizations
+## UB Customizations
 
-* Integrated University of Oxford branding guidelines
-* Example templates featuring the Oxford color scheme and logo placement
-* Additional font support to match Oxford's branding (where applicable)
+* Integrated University of Bridgeport branding guidelines
+* Example templates featuring the UB color scheme and logo placement
+* Additional font support to match UB's branding (where applicable)
 
 ## Dependencies
 
@@ -29,7 +29,7 @@ For a general-purpose beamer presentation theme, see [Auriga].
 
 1. Configure `poster.tex` with your desired paper size, column layout, and scale adjustments as needed
 
-1. Customize `beamercolorthemegemini.sty` by copying it and modifying the `\usecolortheme` line in `poster.tex` to theme your poster to Oxford's branding (optional but recommended for university-related presentations)
+1. Customize `beamercolorthemegemini.sty` by copying it and modifying the `\usecolortheme` line in `poster.tex` to theme your poster to UB's branding (optional but recommended for university-related presentations)
 
 1. Use `make` to compile your poster
 
@@ -39,12 +39,10 @@ For common questions, such as adding an institution logo or customizing the colo
 
 ## Themes
 
-The Oxford version includes several color themes suitable for various types of presentations:
+The UB version includes several color themes suitable for various types of presentations:
 
 * `gemini` (default)
-* `ox` (customized for University of Oxford branding)
-* `mit`
-* `labsix`
+* `UB` (customized for University of Bridgeport branding)
 
 You're encouraged to create your own color theme or use the `ox` theme for presentations associated with the University.
 
@@ -60,7 +58,7 @@ Contributions such as bug reports, new themes, and enhancements are welcome! Des
 
 ## License
 
-Copyright (c) 2018-2022 Anish Athalye. This unofficial Oxford version is released under the MIT License. See [LICENSE.md][license] for details.
+Copyright (c) 2018-2024 Huy Huong. This unofficial UB version is released under the MIT License. See [LICENSE.md][license] for details.
 
 [beamerposter]: https://github.com/deselaers/latex-beamerposter
 [Auriga]: https://github.com/anishathalye/auriga
