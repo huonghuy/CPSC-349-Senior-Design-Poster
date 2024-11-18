@@ -2,12 +2,6 @@
 
 This is an unofficial adaptation of the modern LaTeX [beamerposter] theme, Gemini, tailored for the University of Bridgeport.
 
-<p align="center">
-<a href="https://raw.githubusercontent.com/anishathalye/assets/master/gemini/poster-gemini.pdf">
-<img src="https://raw.githubusercontent.com/MaxMLang/assets/master/ox-poster.png">
-</a>
-</p>
-
 For a general-purpose beamer presentation theme, see [Auriga].
 
 ## UB Customizations
@@ -19,7 +13,6 @@ For a general-purpose beamer presentation theme, see [Auriga].
 ## Dependencies
 
 * A TeX installation that includes [LuaTeX]
-    * `latexmk` is needed for using the provided `Makefile`
 * LaTeX package dependencies including beamerposter (typically part of your TeX installation, available on [CTAN] if not)
 * [Raleway] and [Lato] fonts, both available under Open Font License, and any additional fonts recommended by the University's branding guidelines
 
@@ -30,8 +23,6 @@ For a general-purpose beamer presentation theme, see [Auriga].
 1. Configure `poster.tex` with your desired paper size, column layout, and scale adjustments as needed
 
 1. Customize `beamercolorthemegemini.sty` by copying it and modifying the `\usecolortheme` line in `poster.tex` to theme your poster to UB's branding (optional but recommended for university-related presentations)
-
-1. Use `make` to compile your poster
 
 ## FAQ
 
