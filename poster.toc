@@ -1,0 +1,3 @@
+\beamer@sectionintoc {1}{Header}{1}{0}{1}
+\beamer@sectionintoc {2}{Footer}{1}{0}{2}
+\beamer@sectionintoc {3}{Abstract}{1}{0}{3}
