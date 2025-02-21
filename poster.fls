@@ -347,9 +347,10 @@ INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libr
 INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
 INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/anyfontsize/anyfontsize.sty
-INPUT ./logos/ub-logo-stacked-KO.png
-INPUT ./logos/ub-logo-stacked-KO.png
-INPUT ./logos/ub-logo-stacked-KO.png
+INPUT ./logos/ASEE Logo.png
+INPUT ./logos/ASEE Logo.png
+INPUT ./logos/UB_Logo.png
+INPUT ./logos/UB_Logo.png
 INPUT ./poster.aux
 OUTPUT poster.aux
 INPUT /usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -367,7 +368,7 @@ INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/translator/translator-months-
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/translator/translator-numbers-dictionary-English.dict
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
 INPUT ./poster.nav
-INPUT ./logos/ub-logo-stacked-KO.png
+INPUT ./logos/UB_Logo.png
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/lm/ot1lmr.fd
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/lm/rm-lmr12.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/lm/rm-lmr8.tfm
@@ -407,9 +408,9 @@ INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam1
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT ./logos/ub-logo-stacked-KO.png
-INPUT ./logos/ub-logo-stacked-KO.png
-INPUT ./logos/ub-logo-stacked-KO.png
+INPUT ./logos/ASEE Logo.png
+INPUT ./logos/UB_Logo.png
+INPUT ./logos/ASEE Logo.png
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/lm/rm-lmr17.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/lm/rm-lmr17.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/lm/rm-lmr17.tfm
@@ -430,14 +431,14 @@ INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/lm/rm-lmbx12.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/lm/rm-lmbx12.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/lm/rm-lmbx12.tfm
 INPUT ./poster.bbl
-INPUT ./logos/ub-logo-stacked-KO.png
+INPUT ./logos/UB_Logo.png
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/lm/rm-lmbx12.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/lm/rm-lmbx8.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/lm/rm-lmbx6.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/lm/rm-lmbx12.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/lm/rm-lmbx12.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/lm/rm-lmbx12.tfm
-INPUT ./logos/ub-logo-stacked-KO.png
+INPUT ./logos/ASEE Logo.png
 INPUT /usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 OUTPUT poster.nav
 OUTPUT poster.toc
