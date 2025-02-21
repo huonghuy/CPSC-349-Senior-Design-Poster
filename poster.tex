@@ -11,10 +11,15 @@
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 % \usepackage[size=custom,width=120,height=72,scale=1.0]{beamerposter}
-\usepackage[size=custom,width=91.44,height=60.96,scale=1.0]{beamerposter} % centermeter
+
+%Change this section based on what we require
+%\usepackage[size=custom,width=91.44,height=60.96,scale=1.0] {beamerposter} % centimeter - Standard Landscape
+
+\usepackage[size=custom,width=60.96,height=91.44,scale=1.0] {beamerposter} % centimeter - UBRise Portrait
 
 \usetheme{gemini}
 \usecolortheme{UBridgeport}
+
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{tikz}
@@ -39,20 +44,14 @@
 % Title
 % ====================
 \section{Header}
-\title{LawnBot}
+\title{LawnBot: Affordable Autonomous Lawnmower}
 
-\author{Juan Rosario Medina\inst{1} \and Huy Huong\inst{1} \and Alex Armatis\inst{1} \and Carlos Lara\inst{2}}
-
-\institute[UB]{School of Computer Science \& Engineering} 
-% ====================
-% Footer (optional)
-% ====================
-\section{Footer}
-\footercontent{
-  {} \hfill
-  CSPC-349A/CPEG-349A - Team 3 \hfill
-  {}}
-% (can be left out to remove footer)
+\title{LawnBot: Affordable Autonomous Lawnmower}
+\author{Juan Rosario Medina \inst{1} \and Huy Huong \inst{1} \and Alex Armatis \inst{1} \and Carlos Lara \inst{2}}
+\institute[UB]{
+    University of Bridgeport \inst{1} \\
+    School of Computer Science \& Engineering \inst{2} 
+}
 
 % ====================
 % Logo (optional)
@@ -60,8 +59,8 @@
 % Refer to https://github.com/k4rtik/uchicago-poster
 % logo: https://communications.admin.ox.ac.uk/communications-resources/visual-identity/identity-guidelines/the-oxford-logo
 % use this to include logos on the left and/or right side of the header:
-\logoright{\includegraphics[height=7cm]{logos/ub-logo-stacked-KO.png}}
-\logoleft{\includegraphics[height=7cm]{logos/ub-logo-stacked-KO.png}}
+\logoright{\includegraphics[height=7cm]{logos/UB_Logo.png}}
+\logoleft{\includegraphics[height=3cm]{logos/ASEE.png}}
 
 % ====================
 % Body
@@ -78,40 +77,34 @@
   \begin{block}{Abstract}
 
     %This WIP Paper is for a student senior design project. 
-    Consumer lawn mowers available for purchase all are burdened by their high starting investment cost, unexpected costs of maintenance, as well as being difficult to use on rough uneven terrain. The objective of this project is to design and construct an autonomous robotic lawn mower that will utilize an internal system to detect the boundaries of the yard, and mow the lawn at consistent levels, regardless of terrain. Autonomous vehicles have seen a rise as Artificial Intelligence (AI) models have begun training on real-world data sets. These systems can also translate to an autonomous system for lawn mowing as well, using user inputted data to act precisely. This project intends to develop a high powered lawn mower for a fraction of the cost. Through the use of radar and different proximity sensors located around the robot, the project will be controlled via an automated ground station software that will run as needed as well as an option to be remotely operated. The robot will be given either a set of instructions by the user to perform its task or be given a predefined setting and execute that function using machine learning modeling handled by the microcontroller. In addition, the lawn mower will be lightweight and portable in order to improve efficiency and decrease potential labor costs. The overall intention of this project is to create an autonomous lawn mower within a constrained budget of \$500 and analyze the benefits and constraints of its usage compared to consumer models.
+    The concept of Autonomous Vehicle have spiked proportionally to the investments of Artificial Intelligence and Machine Learning training with real-world data sets [Potential Article quote here]. A great example of this approach is implementing it to a lawnmower, allowing a time-free schedule to consumers. Today's products are trustworthy, but a burdened due to their high starting investment, unexpected costs of maintenance, and unexpected reaction varying the terrain. We aim to minimize the mentioned cons while maximizing the performance with less exposure of software techniques and more emphasis with its design. The term "autonomous" is performing an action with a small to no exposure of human aid. Many of our project's competitors use this practice optimally, we wanted to replicate these approaches but forcing a tighter budget to see how far we can reach to define our project as "autonomous". Realizing our microcontroller's performance, it could not handle most pathing algorithm let alone being compatible with it. We decided to make our project mimic the user's input to then replicate it when needed. As mentioned before, we give you a product for you to store a data set and "Autonomously" replicates it.
+
 
   \end{block}
 
-  \begin{block}{A block containing a list}
-
-    Nam vulputate nunc felis, non condimentum lacus porta ultrices. Nullam sed
-    sagittis metus. Etiam consectetur gravida urna quis suscipit.
-
+  \begin{block}{Hardware List}
     \begin{itemize}
-      \item \textbf{Mauris tempor} risus nulla, sed ornare
-      \item \textbf{Libero tincidunt} a duis congue vitae
-      \item \textbf{Dui ac pretium} morbi justo neque, ullamcorper
+      \item \textbf{Outer Shell (PLA)}
+      \item \textbf{ESP32-WROOM-32}
+      \item \textbf{Sensor(s):} GPS/RTK sensors, Ultrasonic Sensors, Rain Sensors
+      \item \textbf{Equipment:} Motor Driver, Voltage Regulator, Battery, Wheels, Fuse, Terminal Block, Mower Blade
     \end{itemize}
 
-    Eget augue porta, bibendum venenatis tortor.
+    
 
   \end{block}
 
-  \begin{alertblock}{A highlighted block}
-
-    This block catches your eye, so \textbf{important stuff} should probably go
-    here.
-
+  \begin{block}{Objectives}
     \begin{itemize}
-      \item \textbf{Fusce dapibus tellus} vel tellus semper finibus. In
-        consequat, nibh sed mattis luctus, augue diam fermentum lectus.
-      \item \textbf{In euismod erat metus} non ex. Vestibulum luctus augue in
-        mi condimentum, at sollicitudin lorem viverra.
+      \item \textbf Understand the combination of lawnmower's traditional method with software approaches.
+      \item \textbf Understand the equipment's purposes for autonomous usage.
+      \item \textbf Software limitations with a cheap Microcontroller.
+      \item \textbf Improve design for performance.
+      \item \textbf Understand the floor and ceiling approaches that are known as "Autonomous".
+      \item \textbf Make it profitable.
     \end{itemize}
 
-    Aenean tincidunt r
-
-  \end{alertblock}
+  \end{block}
 
 \end{column}
 
@@ -119,22 +112,28 @@
 
 \begin{column}{\colwidth}
 
-  \begin{block}{A block containing an enumerated list}
+  \begin{block}{Methodology}
+  For a lawnmower, the consumer wants to know the physical attributes before purchasing the product. Its good to know for how long it can work, its cutting height, its cutting width and how can it be handled on a dynamic environment.
+  \begin{heading}{Design:}
+  \end{heading}
 
-    Vivamus congue volutpat elit non semper. Praesent molestie nec erat ac
-    interdum. In quis suscipit erat. \textbf{Phasellus mauris felis, molestie
-    ac pharetra quis}, tempus nec ante. Donec finibus ante vel purus mollis
+    Since the very beginning, we took the approach of adding a fan; this will improve cutting without changing the cutting height our our robot. The case was designed and 3D printed using PLA.
 
-    \begin{enumerate}
-      \item \textbf{Morbi mauris purus}, egestas at vehicula et, convallis
-        accumsan orci. Orci varius natoque penatibus et magnis dis parturient
-        montes, nascetur ridiculus mus.
-      \item \textbf{Cras vehicula blandit urna ut maximus}. Aliquam blandit nec
-        massa ac sollicitudin. Curabitur cursus, metus nec imperdiet bibendum,
-        velit lectus faucibus dolor, quis gravida metus mauris gravida turpis.
-      \item \textbf{Vestibulum et massa diam}. Phasellus fermentum augue non
-        nulla accumsan, non rhoncus lectus condimentum.
-    \end{enumerate}
+  \begin{heading}{Software:}
+  \end{heading}
+
+    Our project is embedded with 3 modes:
+    \begin{itemize}
+        \item \textbf{Manual Mode:}
+        The user manually controls the lawnmower via bluetooth with you phone (?), these movements will be saved as 
+        %Coordinates, taken from the GPS/RTK, and saved through the connected SD Card
+        %Movement, taken from how long the user pressed a specific button for a certain period of time, and saved through the connected SD Card 
+        \item \textbf{Automatic Mode:}
+        Once Manual Mode is completed, you have to place the robot in its origin point and watch how it mimics the user's input from the data collected. The ultrasonic sensors and Rain sensors will provide aid for any dynamic obstacles detected, manipulating the robot's behavior if the conditions are met. If any of the conditions take place, the robot will iterate the data backwards, going back to the first point.  
+        \item \textbf{Idle Mode:}
+        When there's no SD Card connected to the robot, you can use it as a RC Car to roam around the environment. This is good for setting up the robot properly before going to Manual Mode
+        
+    \end{itemize}
 
   \end{block}
 
